@@ -21,7 +21,7 @@ const ColorPicker = () => {
     };
   }, []);
 
-  return <div ref={colorPickerRef} className=""></div>;
+  return <div ref={colorPickerRef}></div>;
 };
 
 export default ColorPicker;
