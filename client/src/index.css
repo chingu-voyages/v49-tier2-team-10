@@ -11,7 +11,7 @@ Variables
 ===============
 */
 :root {
-  --clr-white: #fff;
+  --clr-white: #f5f8ff;
   --ff-primary: "Inter", sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
@@ -33,8 +33,8 @@ Global Styles
 }
 body {
   font-family: var(--ff-primary);
-  background: var(--clr-white);
-  color: var(--clr-grey-1);
+  background: #1b232e;
+  color: var(--clr-white);
   line-height: 1.5;
   font-size: 0.875rem;
 }
