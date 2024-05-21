@@ -1,0 +1,104 @@
+/*
+=============== 
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bai+Jamjuree:wght@700&family=Inter:wght@100..900&family=Raleway:wght@500&display=swap");
+
+/*
+=============== 
+Variables
+===============
+*/
+:root {
+  --clr-white: #fff;
+  --ff-primary: "Inter", sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/*
+=============== 
+Global Styles
+===============
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--ff-primary);
+  background: var(--clr-white);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*  global classes */
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+  transition: var(--transition);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 15px 20px;
+  background-color: #7c58ff;
+  color: var(--clr-white);
+  border: transparent;
+  border-radius: 10px;
+  margin-top: 34px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: #7c58ff;
+  background: #7c58ff;
+}
+
+/*
+=============== 
+Color Wheel
+===============
+*/
+
+.content {
+  display: inline-block;
+  padding: 3rem;
+  border-radius: 10px;
+  background-color: #2b323d;
+}
+
+.content .title {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-align: center;
+  padding-bottom: 34px;
+}
+
+.swatches {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+}
+
+.swatches .box {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 5px;
+}
