@@ -48,8 +48,6 @@ a {
 /*  global classes */
 
 .btn {
-  text-transform: uppercase;
-  letter-spacing: var(--spacing);
   transition: var(--transition);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   font-size: 1rem;
@@ -63,8 +61,8 @@ a {
   cursor: pointer;
 }
 .btn:hover {
-  color: #7c58ff;
-  background: #7c58ff;
+  color: #5b2eff;
+  background: #ccbdff;
 }
 
 /*
@@ -74,10 +72,13 @@ Color Wheel
 */
 
 .content {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 3rem;
   border-radius: 10px;
   background-color: #2b323d;
+  max-width: 350px;
 }
 
 .content .title {
@@ -92,6 +93,7 @@ Color Wheel
 
 .swatches {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   margin-top: 34px;
 }

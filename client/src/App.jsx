@@ -1,5 +1,11 @@
+import ColorWheelContainer from "./components/ColorWheelContainer";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <ColorWheelContainer />
+    </>
+  );
 };
 
 export default App;
