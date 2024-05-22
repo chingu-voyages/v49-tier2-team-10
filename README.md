@@ -36,7 +36,7 @@ coding!
 
 - Emerson Bualat: [GitHub](https://github.com/emerson-bualat) / [LinkedIn](https://www.linkedin.com/in/emerson-bualat-696844273/)
 - Rika Miyata: [GitHub](https://github.com/Tayrika) / [LinkedIn](https://www.linkedin.com/in/rika-miyata-4bab99243/)
-
+- Allen https://github.com/allenmathews
   ...
 
 - Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
